@@ -1,0 +1,17 @@
+import numpy as np
+
+# Create arrays
+a = np.array([1, 2, 3, 4])
+b = np.array([5, 6, 7, 8])
+
+# Display arrays
+print("Array a:", a)
+print("Array b:", b)
+
+# Arithmetic operations
+print("\nAddition:", a + b)
+print("Multiplication:", a * b)
+
+# Statistical operations
+print("\nMean of a:", np.mean(a))
+print("Maximum value in b:", np.max(b))

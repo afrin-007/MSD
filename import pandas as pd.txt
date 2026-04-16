@@ -1,0 +1,23 @@
+import pandas as pd
+
+# Create a simple dataset
+data = {
+    "Name": ["John", "Alice", "Bob"],
+    "Age": [25, 30, 22],
+    "Marks": [85, 90, 78]
+}
+
+# Convert into DataFrame
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print("DataFrame:")
+print(df)
+
+# Basic operations
+print("\nAverage Age:", df["Age"].mean())
+print("Maximum Marks:", df["Marks"].max())
+
+# Filter data
+print("\nStudents with Marks > 80:")
+print(df[df["Marks"] > 80])
